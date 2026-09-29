@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: italic;
+}
+:root{
+    --color-fondo: #cd8f4f;
+    --color-texto: #FFF;
+}
+.hero {
+    /*background-image: url('./img/WhatsApp\ Image\ 2026-09-27\ at\ 19.45.23.jpeg');*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 27vh;
+    background-attachment: fixed;
+    background-color: var(--color-fondo);
+    color: var(--color-texto)       ;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 10px;
+
+}
+.links{
+    display:flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+}
+footer {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    text-align: center;
+    padding: 20px 0;
+    display:flex;
+    justify-content:space-around;
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.btn{
+    background-color: var(--color-fondo);
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    left: 300px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+#formulario form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;
+    top: 20px;
+}
+#enviar{
+    background-color: #8B6B4A;
+    color: white;
+}
+.btn,
+.principal{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-fondo);
+    color: white;
+    position: fixed;
+    bottom: 90px;
+    left:20px;
+}
+#nosotros{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    border-radius: 30px;
+    padding: 20px;
+    font-style: italic;
+    position:fixed;
+    bottom: 65px;
+    left: 10px;
+    right: 10px;
+}
+#productos{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+.producto{
+    background-color: #ffffff;
+    width: 340px;
+    margin: 8px 4px;
+    padding: 20px;
+    border: 3px solid #1d3557;
+    border-radius: 12px;
+    text-align: center;
+}
+.producto img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    align-items: center;
+}
+.producto .grande{
+    width: 100%;
+    height: 64%;
+    border-radius: 30px;
+    align-items: center;
+}
