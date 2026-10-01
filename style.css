@@ -16,17 +16,21 @@
     height: 27vh;
     background-attachment: fixed;
     background-color: var(--color-fondo);
-    color: var(--color-texto)       ;
+    color: var(--color-texto);
     text-align: center;
     padding: 50px 0;
     margin-bottom: 10px;
 
 }
-.links{
+.links a{
     display:flex;
-    justify-content: space-around;
+    justify-content:space-between;
     text-decoration: none;
     color: white;
+    background-color: var(--color-fondo);
+    align-items: center;
+    padding: 10px 20px;
+    gap: 16px;
 }
 footer {
     background-color: var(--color-fondo);
@@ -92,20 +96,23 @@ footer {
     left: 10px;
     right: 10px;
 }
-#productos{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0;
+.productos{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
 }
 .producto{
-    background-color: #ffffff;
-    width: 340px;
-    margin: 8px 4px;
-    padding: 20px;
-    border: 3px solid #1d3557;
-    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #e5d5c5;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
 .producto img{
